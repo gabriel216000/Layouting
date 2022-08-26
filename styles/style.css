@@ -1,0 +1,78 @@
+/*Here I add some custom features to the text within "intro" */
+.intro {
+    color: whitesmoke;
+    background: green;
+    text-align: center;
+    height: 110px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 15px;
+    text-decoration: underline overline;
+    box-shadow: 10px 10px grey;
+    transform: rotate(20deg);
+}
+
+/* This is also a custom feature for some text*/
+.two {
+    font-family: 'Dancing Script', cursive;
+    color: green;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(20deg);
+    transform: skewY(20deg);
+    
+}
+
+/*I'm giving the background some color and customized size */ 
+.background {
+    background: lightblue;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 80px;
+    
+}
+
+/*The images have to be set to the same size */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    
+
+}
+
+
+
+/*This is group 1 for the images on the left */
+.Photos1 {
+ top: 15px;
+ left: 65px;
+ position: absolute;
+ 
+ 
+}
+
+/*This is group 2 for the images on the right */
+.Photos2 {
+    top: 200px;
+    right: 65px;
+    
+    position: absolute;
+}
+
+/*Here I introduce the video with green text */
+h1 {
+    margin-left: 120px;
+    color: green;
+    
+}
+
